@@ -1,4 +1,4 @@
-package neeraj.design.structural;
+package neeraj.design.behavioral;
 
 public class StatePattern {
     public static void main(String[] args) {
