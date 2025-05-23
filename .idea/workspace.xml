@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d26843-e3df-4a53-96d2-dc5fe0742bdf" name="Changes" comment="StrategyPattern">
+      <change afterPath="$PROJECT_DIR$/src/neeraj/design/behavioral/VisitorPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neeraj/design/structural/AdapterPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neeraj/design/structural/AdapterPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neeraj/design/structural/BridgePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neeraj/design/structural/BridgePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neeraj/design/structural/DecoratorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neeraj/design/structural/DecoratorPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +59,7 @@
     "Application.StrategyPAttern.executor": "Run",
     "Application.StrategyPattern.executor": "Run",
     "Application.TemplatePattern.executor": "Run",
+    "Application.VisitorPattern.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -69,7 +68,7 @@
     "onboarding.tips.debug.path": "D:/Application/JavaTest/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DecoratorPattern">
+  <component name="RunManager" selected="Application.VisitorPattern">
     <configuration name="BridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.BridgePattern" />
       <module name="JavaTest" />
@@ -122,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.ProxyPattern" />
+    <configuration name="VisitorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neeraj.design.behavioral.VisitorPattern" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="neeraj.design.structural.*" />
+          <option name="PATTERN" value="neeraj.design.behavioral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorPattern" />
         <item itemvalue="Application.DecoratorPattern" />
         <item itemvalue="Application.BridgePattern" />
         <item itemvalue="Application.FacadePattern" />
         <item itemvalue="Application.FlyweightPattern" />
-        <item itemvalue="Application.ProxyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747998427662</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="StrategyPattern">
+      <option name="closed" value="true" />
+      <created>1747999765034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747999765034</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
