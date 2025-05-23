@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d26843-e3df-4a53-96d2-dc5fe0742bdf" name="Changes" comment="StrategyPattern">
-      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/AdapterPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/DecoratorPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/ProxyPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/FacadePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/FlyweightPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CompositePattern.executor": "Run",
+    "Application.FacadePattern.executor": "Run",
+    "Application.FlyweightPattern.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObserverPattern.executor": "Run",
     "Application.ProxyPattern.executor": "Run",
@@ -65,9 +66,35 @@
     "onboarding.tips.debug.path": "D:/Application/JavaTest/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProxyPattern">
+  <component name="RunManager" selected="Application.FacadePattern">
     <configuration name="CompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.CompositePattern" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neeraj.design.structural.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacadePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.FacadePattern" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neeraj.design.structural.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlyweightPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.FlyweightPattern" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -105,39 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="neeraj.design.behavioral.StrategyPattern" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="neeraj.design.behavioral.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="neeraj.design.behavioral.TemplatePattern" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="neeraj.design.behavioral.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadePattern" />
+        <item itemvalue="Application.FlyweightPattern" />
         <item itemvalue="Application.ProxyPattern" />
         <item itemvalue="Application.CompositePattern" />
         <item itemvalue="Application.ObserverPattern" />
-        <item itemvalue="Application.TemplatePattern" />
-        <item itemvalue="Application.StrategyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747988347983</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="StrategyPattern">
+      <option name="closed" value="true" />
+      <created>1747990370411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747990370411</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
