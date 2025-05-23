@@ -45,6 +45,7 @@ class DocumentContext {
 }
 
 /*
+Intent:
 To allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
 Context: The class that maintains an instance of a State subclass that defines the current state.

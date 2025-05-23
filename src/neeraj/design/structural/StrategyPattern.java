@@ -60,3 +60,24 @@ class ShoppingCart {
     }
 }
 
+/*
+
+Intent:
+Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
+Components:
+Strategy (interface): Common interface for all supported algorithms.
+ConcreteStrategy: Classes that implement the strategy interface with specific behavior.
+Context: Uses a Strategy object and delegates it to perform the algorithm.
+
+✅ When to Use the Strategy Pattern:
+When you have multiple related classes that differ only in their behavior.
+When you need different variants of an algorithm.
+When you want to avoid conditional statements for selecting behavior.
+
+🔄 Benefits:
+Removes conditional logic.
+Promotes open/closed principle (open for extension, closed for modification).
+Algorithms can be changed at runtime.
+
+*/
