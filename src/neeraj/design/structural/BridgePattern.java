@@ -59,7 +59,31 @@ class CircleShape extends Shape {
     }
 }
 
+/*
+The Bridge Design Pattern is a structural design pattern that decouples an abstraction from its implementation
+so that the two can vary independently. It's useful when you want to avoid a combinatorial explosion of
+classes due to multiple dimensions of change.
 
+🧠 Key Concepts
+Abstraction: The high-level control layer (interface or abstract class).
+Implementor: The low-level interface (the implementation layer).
+Bridge: The abstraction contains a reference to the implementor.
+Refined Abstraction: A subclass of the abstraction that interacts with the implementor.
+
+✅ When to Use
+When you want to separate abstraction and implementation permanently.
+When you have multiple variants of abstraction and implementation.
+To avoid deep inheritance hierarchies.
+
+🧩 Benefits
+Decouples interface from implementation.
+Increases flexibility and scalability.
+Reduces subclass explosion.
+
+⚠️ Drawbacks
+Adds complexity via indirection.
+Can be overkill for simple hierarchies.
+ */
 
 
 

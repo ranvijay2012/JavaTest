@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d26843-e3df-4a53-96d2-dc5fe0742bdf" name="Changes" comment="StrategyPattern">
-      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/BridgePattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neeraj/design/structural/AdapterPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neeraj/design/structural/AdapterPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neeraj/design/structural/BridgePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neeraj/design/structural/BridgePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/neeraj/design/structural/DecoratorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neeraj/design/structural/DecoratorPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
   "keyToString": {
     "Application.BridgePattern.executor": "Run",
     "Application.CompositePattern.executor": "Run",
+    "Application.DecoratorPattern.executor": "Run",
     "Application.FacadePattern.executor": "Run",
     "Application.FlyweightPattern.executor": "Run",
     "Application.Main.executor": "Run",
@@ -66,7 +69,7 @@
     "onboarding.tips.debug.path": "D:/Application/JavaTest/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BridgePattern">
+  <component name="RunManager" selected="Application.DecoratorPattern">
     <configuration name="BridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.BridgePattern" />
       <module name="JavaTest" />
@@ -80,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.CompositePattern" />
+    <configuration name="DecoratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.DecoratorPattern" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorPattern" />
         <item itemvalue="Application.BridgePattern" />
         <item itemvalue="Application.FacadePattern" />
         <item itemvalue="Application.FlyweightPattern" />
         <item itemvalue="Application.ProxyPattern" />
-        <item itemvalue="Application.CompositePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747997334206</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="StrategyPattern">
+      <option name="closed" value="true" />
+      <created>1747998427662</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747998427662</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
