@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d26843-e3df-4a53-96d2-dc5fe0742bdf" name="Changes" comment="StrategyPattern">
-      <change afterPath="$PROJECT_DIR$/src/neeraj/design/behavioral/ObserverPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neeraj/design/behavioral/TemplatePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/CompositePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/AdapterPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/DecoratorPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neeraj/design/structural/ProxyPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neeraj/design/structural/StatePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neeraj/design/behavioral/StatePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/neeraj/design/structural/StrategyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/neeraj/design/behavioral/StrategyPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
     "Application.CompositePattern.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObserverPattern.executor": "Run",
+    "Application.ProxyPattern.executor": "Run",
     "Application.StatePattern.executor": "Run",
     "Application.StrategyPAttern.executor": "Run",
     "Application.StrategyPattern.executor": "Run",
@@ -66,7 +65,7 @@
     "onboarding.tips.debug.path": "D:/Application/JavaTest/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CompositePattern">
+  <component name="RunManager" selected="Application.ProxyPattern">
     <configuration name="CompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.CompositePattern" />
       <module name="JavaTest" />
@@ -93,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="neeraj.design.behavioral.StatePattern" />
+    <configuration name="ProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="neeraj.design.structural.ProxyPattern" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="neeraj.design.behavioral.*" />
+          <option name="PATTERN" value="neeraj.design.structural.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyPattern" />
         <item itemvalue="Application.CompositePattern" />
         <item itemvalue="Application.ObserverPattern" />
         <item itemvalue="Application.TemplatePattern" />
         <item itemvalue="Application.StrategyPattern" />
-        <item itemvalue="Application.StatePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747985134297</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="StrategyPattern">
+      <option name="closed" value="true" />
+      <created>1747988347983</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747988347983</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
